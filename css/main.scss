@@ -1,0 +1,29 @@
+// Colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+$white: #fff;
+$grey: #2f3234cc;
+
+// Resolutions
+$desktop: 1200px;
+$tablets: 768px;
+$phones: 480px;
+$small: 375px;
+
+// Settings
+@import "./settings/mixins.scss"; //миксины
+@import "./settings/common.scss"; //общие стили
+@import "./settings/zeroing.scss"; //сброс стандартных значений
+@import "./dynamicelement/menuPhone.scss"; //стили для меню на телефоне
+
+// Sections
+
+@import "./sections/header.scss"; //heder
+@import "./sections/sectionMain.scss"; //секция первая
+@import "./sections/sectionAbout.scss"; // about us
+@import "./sections/sectionServices.scss"; // about us
+@import "./sections/sectionPotfolio.scss"; // about portfoli
+@import "./sections/sectionForm.scss"; // about form
+@import "./sections/footer.scss"; // footer

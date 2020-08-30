@@ -1,0 +1,59 @@
+.main {
+    background: url('./../../img/header_bg.jpg') no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+}
+
+// Section one
+.one {
+    height: inherit;
+}
+
+.btn {
+	font-weight: 500;
+	font-size: 17px;
+	margin: 20px 0;
+	background-color: rgba(255,255,255,0);
+	color: #fff;
+    border: 1px solid #fff;
+    
+    @include desktop {
+
+    }
+
+    @include phones {
+        margin: 0;
+    }
+
+    @include small {
+
+    }
+}
+
+.btn:hover, .btn:focus {
+	color: #555;
+	background-color: #fff;
+	outline: 0px;
+	border: 1px solid #fff;
+}
+
+.btn-lg {
+    padding: rem(10px) rem(16px);
+    font-size: rem(18px);
+    line-height: 1.33;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-lg--mobile {
+    margin: 0;
+}

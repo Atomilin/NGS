@@ -1,0 +1,115 @@
+.about {
+    display: flex;
+    //align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    @include desktop {
+        //font-size: rem(72px);
+        //white-space: nowrap;
+        align-items: center;
+        //flex-direction: column;
+    }
+
+    @include phones {
+        margin-top: rem(50px);
+        align-items: center;
+        font-size: rem(40px);
+        white-space: inherit;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    @include small {
+        //font-size: rem(54px);
+        //white-space: nowrap;
+        flex-direction: column;
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+
+    
+    @include desktop {
+        //font-size: rem(72px);
+        //white-space: nowrap;
+        height: 60%;
+        flex-direction: column;
+    }
+
+    @include phones {
+        font-size: rem(20px);
+        width: 80%;
+        align-items: center;
+        white-space: inherit;
+        justify-content: normal;
+    }
+
+    @include small {
+        //font-size: rem(54px);
+        //white-space: nowrap;
+        flex-direction: column;
+    }
+}
+
+.about__img {
+    @include desktop {
+        width: 85%;
+    }
+
+    @include phones {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @include small {
+        
+    }
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+
+        
+    @include desktop {
+
+    }
+
+    @include phones {
+        
+        width: 80%;
+    }
+
+    @include small {
+
+    }
+}
+
+.about__description {
+    color: #555;
+    width: 80%;
+
+    @include desktop {
+        //width: auto;
+    }
+
+    @include phones {
+        width: auto;
+
+    }
+
+    @include small {
+
+    }
+}

@@ -1,0 +1,159 @@
+.services {
+    background: url(../../img/bg.jpg) no-repeat center center fixed;
+    //padding: 60px 0;
+    text-align: center;
+    background-size: cover;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        
+        justify-content: normal;
+    }
+
+    @include small {
+
+    }
+}
+
+.services__text {
+    display: flex;
+    margin-top: rem(60px);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    @include desktop {
+        margin-top: 0;
+    }
+
+    @include phones {
+        
+        margin-top: 20px;
+    }
+
+    @include small {
+
+    }
+}
+
+.services__text--portfolio {
+    color: #555;
+}
+
+.services__title {
+    margin: 0;
+}
+
+.services__subtext {
+    width: 50%;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
+    width: 50%;
+    position: relative;
+    border: none;
+}
+
+.spisok {
+    display: inline-flex;
+    margin-top: 100px;
+
+    @include desktop {
+        width: 80%;
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    @include small {
+
+    }
+}
+
+.spisok--mobile {
+
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        height: inherit;
+    }
+
+    @include small {
+
+    }
+}
+
+
+.spisok__item {
+    width: 240px;
+    margin-right: 50px;
+    color: white;
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    @include small {
+
+    }
+}
+
+.spisok__item:last-child {
+    margin-right: 0px;
+}
+
+.item__img {
+    filter: invert(1);
+}
+
+.spisok__txt {
+    text-align: justify;
+}
+
+
+//
+
+.services__desription {
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include small {
+
+    }
+
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Частный веб-разработчик Аркадий Томилин | Создание и продвижение сайтов</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- Navigation menu-->
+            <header class="header">
+                <div class="header__btns">
+                    <div class="header__menu">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link style__text__desc" href="#1" alt="home" data-title="о нас">home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link style__text__desc" href="#2" alt="about" data-title="бургеры">about</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link style__text__desc" href="#3" alt="services" data-title="команда">services</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link style__text__desc" href="#4" alt="portfolio" data-title="меню">portfolio</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link style__text__desc" href="#5" alt="contact" data-title="контакты">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--Phone menu navigation-->
+ 
+            </header>
+
+            <div class="header__btns">
+                <div class="header__links">
+                    <a class="menu-link" onclick="openMenu()">
+                        <div class="menu-link__bars"></div>
+                    </a>
+                    <a class="button nav__link btn btn-lg btn-lg--mobile " href="#5" alt="Make order" data-title="Order">Order</a>
+                </div>
+            </div>
+            <!--Phone menu navigation-->
+            <div class="menu-phone" id="menu-phone">
+                <div class="menu-phone__wrapper">
+                    <div class="menu-phone__logo">
+                        <a href="index.html">
+                            <img class="menu-phone__img" src="images/icons/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <a onclick="closeMenu()">
+                        <div class="menu-phone__close"></div>
+                    </a>
+                    <nav class="nav">
+                        <ul class="menu-phone__list">
+                            <li class="menu-phone__item">
+                                <a class="menu-phone__link" href="#1" alt="home">home</a>
+                            </li>
+                            <li class="menu-phone__item">
+                                <a class="menu-phone__link" href="#2" alt="about">about</a>
+                            </li>
+                            <li class="menu-phone__item">
+                                <a class="menu-phone__link" href="#3" alt="services">services</a>
+                            </li>
+                            <li class="menu-phone__item">
+                                <a class="menu-phone__link" href="#4" alt="portfolio">portfolio</a>
+                            </li>
+                            <li class="menu-phone__item">
+                                <a class="menu-phone__link" href="#5" alt="Ссылка на страницу контакты">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!--Section One-->
+            <section class="section spisok--mobile" data-section="1">
+                <div class="main">
+                    <div class="content">
+                        <div class="title">
+                            Design. Development. Marketing.
+                        </div>
+                        <a href="#4" class="nav__link btn btn-lg style__text__desc">See My Works</a>
+                    </div>
+                </div>
+            </section>
+            <!--Section About-->
+            <section class="section spisok--mobile" data-section="2">
+                <div class="about">
+                    <div class="left">
+                        <img src="./img/about/about1.jpg" class="about__img">
+                    </div>
+                    <div class="right">
+                        <div class="about__description">
+                            <h2 class="style__text__title">About us</h2>
+                            <p class="style__text__desc">My name is Arkady Tomilin, I am 30 years old. I sincerely love web development and internet marketing, I am actively exploring new standards, and in my free time I share my experience.</p>
+                        </div>
+                        <div class="about__description">
+                            <h2 class="style__text__title">Why choose us?</h2>
+                            <p class="style__text__desc">Изучаю Вашу нишу и продукт, анализирую конкурентов.</p>
+                            <p class="style__text__desc">Всегда на связи в WhatsApp, Telegram, Vk или по телефону.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Services-->
+            <section class="section" data-section="3">
+                <div class="services">
+                    <div class="services__text">
+                        <h2 class="services__title">Services</h2>
+                        <hr>
+                    </div>
+                    <div class="services__desription">
+                        <ul class="spisok">
+                            <li class="spisok__item">
+                                <div>
+                                    <img src="img/icon/monitor.png" class="item__img">
+                                </div>
+                                <div>
+                                    <h3 class="style__text__title">Responsive Design</h3>
+                                    <p class="spisok__txt style__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi delectus ipsa dolores eveniet, consequatur ab minus, vel ea molestias atque eligendi quo omnis fuga rerum sed pariatur, debitis consequuntur.</p>
+                                </div>
+                            </li>
+                            <li class="spisok__item">
+                                <div>
+                                    <img src="img/icon/gears.png" class="item__img">
+                                </div>
+                                <div>
+                                    <h3 class="style__text__title">Web Development</h3>
+                                    <p class="spisok__txt style__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi delectus ipsa dolores eveniet, consequatur ab minus, vel ea molestias atque eligendi quo omnis fuga rerum sed pariatur, debitis consequuntur.</p>
+                                </div>
+                            </li>
+                            <li class="spisok__item">
+                                <div>
+                                    <img src="img/icon/target.png" class="item__img">
+                                </div>
+                                <div>
+                                    <h3 class="style__text__title">Social Marketing</h3>
+                                    <p class="spisok__txt style__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi delectus ipsa dolores eveniet, consequatur ab minus, vel ea molestias atque eligendi quo omnis fuga rerum sed pariatur, debitis consequuntur.</p>
+                                </div>
+                            </li>
+                            <li class="spisok__item">
+                                <div>
+                                    <img src="img/icon/shopping.png" class="item__img">
+                                </div>
+                                <div>
+                                    <h3 class="style__text__title">eCommerce Consulting</h3>
+                                    <p class="spisok__txt style__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi delectus ipsa dolores eveniet, consequatur ab minus, vel ea molestias atque eligendi quo omnis fuga rerum sed pariatur, debitis consequuntur.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Portfolio-->
+            <section class="section" data-section="4">
+                <div class="portfolio">
+                    <div class="services__text services__text--portfolio">
+                        <h2 class="services__title style__text__title">Portfolio</h2>
+                        <hr>
+                    </div>
+                    <ul class="offer__list">
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio1.png" alt="Mir-cvetovbratsk">
+                                    <div class="overlay">
+                                        <span class="overlay__text">Flowers world</span>
+                                        <a href="https://mir-cvetovbratsk.ru/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio2.png" alt="Mr.Burger">
+                                    <div class="overlay">
+                                        <span class="overlay__text">Mr.Burger</span>
+                                        <a href="https://atomilin.github.io/mr.burger/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio3.png" alt="ventclen">
+                                    <div class="overlay">
+                                        <span class="overlay__text">Ventclean</span>
+                                        <a href="https://ventclean.ru/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio4.jpg" alt="ventclen">
+                                    <div class="overlay">
+                                        <span class="overlay__text">Atlant-rf</span>
+                                        <a href="https://atlant-rf.su/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio5.png" alt="remontano">
+                                    <div class="overlay">
+                                        <span class="overlay__text">Remontano</span>
+                                        <a href="https://remontano.ru/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="offer__item item">
+                            <div class="offer__picture">
+                                <div class="offer__avatar">
+                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio6.jpg" alt="eb_5">
+                                    <div class="overlay">
+                                        <span class="overlay__text">EB-5 Expert</span>
+                                        <a href="http://portfolio.demo-wsp.ru/eb_5/" class="btn btn-lg btn__portfolio">More details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Contact Us-->
+            <section class="section services spisok--mobile" data-section="5">
+                <div class="form__wrapper">
+                    <div class="title title--team">You can order a site</div>
+                    <p class="style__text__desc">Solve all your problems with the site: fill out this form or email me arkadii.tomilin19@gmail.com</p>
+                    <form class="form__content" id="form-delivery" name="fileinfo">
+                        <div class="form__content--left">
+                            <div class="form__raw">
+                                <label for="" class="form__label">
+                                    <span class="form__subtitle style__text__desc">Name</span>
+                                    <input type="text" class="form__input" placeholder="Name*" type="text" name="name" required>
+                                </label>
+                                <label for="" class="form__label">
+                                    <span class="form__subtitle style__text__desc">Email</span>
+                                    <input type="text" class="form__input" placeholder="Email*" name="email" type="email" required>
+                                </label>
+                            </div>
+                            <div class="form__raw">
+                                <label for="" class="form__label">
+                                    <span class="form__subtitle style__text__desc">Message</span>
+                                    <textarea class="form__textarea form__input" placeholder="Message*" name="comment" required></textarea>
+                                </label>
+                            </div>
+                            <div class="form__raw form__raw--adaptive">
+                                <div class="form__button">
+                                    <button class="btn btn-lg button--delivery" type="text" id="sendButton">Order</button>
+                                </div>
+                                <div class="form__button">
+                                    <button class="dismiss btn btn-lg button--delivery" type="reset">Clean</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!--Footer-->
+            <footer class="footer">
+                <div class="footer__col">
+                    <div class="footer__address style__text__desc">LosAngeles, USA</div>
+                    <div class="footer__phone">
+                        <svg class="footer__phone-icon" style="fill:#555;">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./img/sprite.svg#phone"></use>
+                        </svg>
+                        <a class="footer__phone-link style__text__desc" href="tel:+18189431084">+1 (818) 943-1084</a>
+                    </div>
+                </div>
+                <div class="footer__col footer__col_right">
+                    <ul class="socials">
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.facebook.com/arkadii.tomilin">
+                                <svg class="socials__link-icon" style="fill: #555;">
+                                <use xlink:href="./img/sprite.svg#fb"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg class="socials__link-icon" style="fill: #555;">
+                                <use xlink:href="./img/sprite.svg#inst"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg class="socials__link-icon" style="fill: #555;">
+                                <use xlink:href="./img/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/navigation.js"></script>
+</body>
+</html>

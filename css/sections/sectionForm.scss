@@ -1,0 +1,220 @@
+.form {
+    background-image: url('./../images/order_bg.jpg');
+    justify-content: center;
+    align-items: center;
+    //display: none;
+}
+
+.form__wrapper {
+    margin: 0 auto;
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        margin: auto;
+        width: 80%;
+    }
+
+    @include small {
+
+    }
+}
+
+.form__content {
+    margin-top: rem(44px);
+    display: flex;
+
+    @include desktop {
+        margin-top: rem(0px);
+        flex-direction: column;
+    }
+
+    @include phones {
+        margin-top: rem(0px);
+        flex-direction: column;
+    }
+}
+
+.form__content--left {
+    display: flex;
+    flex-direction: column;
+    margin-right: rem(20px);
+    width: 100%;
+
+    @include phones {
+        margin-right: rem(0px);
+        margin-bottom: rem(20px);
+    }
+
+    @include small {
+        margin-right: rem(0px);
+        margin-bottom: rem(10px);
+    }
+}
+
+.form__content--right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form__raw {
+    margin-bottom: rem(20px);
+    display: flex;
+
+    
+    @include desktop {
+
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include small {
+
+    }
+}
+
+.form__raw:last-child {
+    margin-bottom: 0;
+}
+
+.form__raw--adaptive {
+    @include phones {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+.form__label {
+    margin-right: rem(20px);
+    flex: 1;
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        margin-right: 0px;
+    }
+
+    @include small {
+
+    }
+}
+
+.form__label--flor {
+    @include phones {
+        display: none;
+    }
+}
+
+.form__label--flat {
+    @include phones {
+        margin-right: rem(0px);
+    }
+}
+
+.form__label:last-child {
+    margin-right: 0;
+}
+
+.form__subtitle {
+    font-family: 'Ubuntu';
+    display: block;
+    font-weight: normal;
+    font-size: rem(14px);
+    text-align: left;
+    color: #fff;
+    margin-bottom: rem(7px);
+}
+
+.form__input {
+    outline: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    border: rem(2px) solid transparent;
+    background-color: #ffffff;
+    font-size: rem(14px);
+    font-weight: 300;
+    color: #2f3234;
+    padding: rem(5px) rem(5px);
+    border-radius: rem(5px);
+    width: 100%;
+    height: rem(36px);
+
+    @include small {
+        height: rem(30px);
+    }
+}
+
+.form__input:focus {
+    border-color: #f9b43b;
+}
+
+.form__textarea {
+    resize: none;
+    height: rem(110px);
+    border-radius: rem(5px);
+    border: rem(2px) solid transparent;
+
+    @include small {
+        height: rem(90px);
+    }
+}
+
+.form__radio {
+    flex: 1;
+}
+
+.form__button {
+    text-align: right;
+    margin-right: rem(20px);
+
+    @include desktop {
+
+    }
+
+    @include phones {
+        text-align: normal;
+        margin-right: 0px;
+    }
+
+    @include small {
+
+    }
+}
+
+.form__button:last-child {
+    margin-right: 0rem;
+}
+
+.dismiss {
+    background-color: transparent;
+}
+
+.menu--other {
+    margin-left: rem(-7px);
+}
+
+.button--delivery {
+    ///font-size: rem(13px);
+    //padding: rem(10px) rem(10px);
+    cursor: pointer;
+}
+
+.title--team {
+
+    @include phones {
+        white-space: inherit;
+    }
+
+    @include small {
+        line-height: normal;
+    }
+}
