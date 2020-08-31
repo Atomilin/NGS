@@ -26,6 +26,7 @@
 
     @include phones {
         flex-direction: column;
+        margin-top: rem(25px);
     }
 
     @include small {
@@ -84,6 +85,8 @@
 }
 .overlay__text {
     color: white;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
 
     @include desktop {
 

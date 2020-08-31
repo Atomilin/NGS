@@ -65,14 +65,11 @@ body {
 .title {
   color: #ffffff;
   font-size: 4.5rem;
-  font-family: 'Alata', sans-serif; }
+  font-family: Yanone Kaffeesatz;
+  font-weight: 700; }
   @media screen and (max-width: 768px) {
     .title {
       font-size: 4.5rem;
-      white-space: inherit; } }
-  @media screen and (max-width: 480px) {
-    .title {
-      font-size: 2.5rem;
       white-space: inherit; } }
 
 .title.title--black {
@@ -97,8 +94,8 @@ body {
   font-weight: normal; }
 
 .style__text__title {
-  font-family: Mukta;
-  font-weight: bold; }
+  font-family: Yanone Kaffeesatz;
+  font-weight: 700; }
   @media screen and (max-width: 480px) {
     .style__text__title {
       margin-bottom: 0;
@@ -108,11 +105,15 @@ body {
       font-size: 1.5625rem; } }
 
 .style__text__desc {
-  font-family: Mukta;
-  font-weight: normal; }
+  color: white;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400; }
   @media screen and (max-width: 375px) {
     .style__text__desc {
       font-size: 0.9375rem; } }
+
+.style__text__desc--black {
+  color: black; }
 
 h1,
 h2,
@@ -264,7 +265,8 @@ a:hover {
   transform: rotate(-45deg); }
 
 .menu-phone__link {
-  font-family: Ubuntu;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
   font-size: 1.5rem;
   -webkit-transition: .5s;
   -o-transition: .5s;
@@ -338,8 +340,9 @@ a:hover {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: distribute;
-      justify-content: space-around; } }
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; } }
 
 .header__menu {
   -webkit-box-flex: 1;
@@ -493,7 +496,7 @@ a:hover {
   bottom: 0; }
 
 .main {
-  background: url("./../../img/header_bg.jpg") no-repeat center top;
+  background: url("./../img/header_bg.jpg") no-repeat center top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,6 +563,7 @@ a:hover {
   @media screen and (max-width: 480px) {
     .about {
       margin-top: 3.125rem;
+      margin-bottom: 3.125rem;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
@@ -646,12 +650,9 @@ a:hover {
 .about__description {
   color: #555;
   width: 80%; }
-  @media screen and (max-width: 480px) {
-    .about__description {
-      width: auto; } }
 
 .services {
-  background: url(../../img/bg.jpg) no-repeat center center fixed;
+  background: url("./../img/bg.jpg") no-repeat center center fixed;
   text-align: center;
   background-size: cover;
   width: -webkit-fill-available;
@@ -695,6 +696,8 @@ a:hover {
   color: #555; }
 
 .services__title {
+  font-family: Yanone Kaffeesatz;
+  font-weight: 700;
   margin: 0; }
 
 .services__subtext {
@@ -729,6 +732,9 @@ hr {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-top: 20px;
       margin: 0 auto;
       width: 80%; } }
@@ -743,9 +749,8 @@ hr {
   color: white; }
   @media screen and (max-width: 480px) {
     .spisok__item {
-      width: 100%;
       margin-right: 0;
-      margin-top: 10px; } }
+      margin-top: 1.5625rem; } }
 
 .spisok__item:last-child {
   margin-right: 0px; }
@@ -765,7 +770,14 @@ hr {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; } }
+    flex-direction: column;
+    margin-bottom: 1.875rem; } }
+
+@media screen and (max-width: 480px) {
+  .spisok__mobile--about {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content; } }
 
 .portfolio {
   margin: 0 auto;
@@ -805,7 +817,8 @@ hr {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-top: 1.5625rem; } }
 
 .offer__item {
   width: 27%;
@@ -851,7 +864,9 @@ hr {
   position: absolute; }
 
 .overlay__text {
-  color: white; }
+  color: white;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 700; }
   @media screen and (max-width: 480px) {
     .overlay__text {
       font-size: 0.9375rem; } }
@@ -1119,7 +1134,9 @@ hr {
   display: flex;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400; }
   @media screen and (max-width: 480px) {
     .footer {
       height: 7.25rem;

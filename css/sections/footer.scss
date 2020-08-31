@@ -5,6 +5,8 @@
     height: rem(60px);  
     display: flex;
     justify-content: space-evenly;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
 
     @include phones {
         height: rem(116px);

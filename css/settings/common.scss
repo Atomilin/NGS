@@ -74,7 +74,8 @@ body {
 .title {
     color: #ffffff;
     font-size: rem(72px);
-    font-family: 'Alata', sans-serif;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
 
     @include tablets {
         font-size: rem(72px);
@@ -82,8 +83,8 @@ body {
     }
 
     @include phones {
-        font-size: rem(40px);
-        white-space: inherit;
+        //font-size: rem(72px);
+        //white-space: inherit;
     }
 
     @include small {
@@ -120,8 +121,8 @@ color: #e45028;
 }
 
 .style__text__title {
-    font-family: Mukta;
-    font-weight: bold;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
 
     @include desktop {
 
@@ -139,18 +140,23 @@ color: #e45028;
 }
 
 .style__text__desc {
-    font-family: Mukta;
-    font-weight: normal;
+    color: white;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
 
     @include desktop {
 
     }
 
     @include phones {
-
+    
     }
 
     @include small {
         font-size: rem(15px);
     }
+}
+
+.style__text__desc--black {
+    color: black;
 }
