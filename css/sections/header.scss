@@ -107,7 +107,7 @@
 .nav__link {
 	//transition: .5s;
 	white-space: pre;
-	font-size: rem(13px);
+	font-size: rem(25px);
 	text-transform: uppercase;
 	color: #555;
 	text-decoration: none;
@@ -126,7 +126,7 @@
 	}
 
 	@include desktop {
-		font-size: rem(29px);
+		font-size: rem(30px);
 	}
 }
 
