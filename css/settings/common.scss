@@ -123,7 +123,7 @@ color: #e45028;
 .style__text__title {
     font-family: Yanone Kaffeesatz;
     font-weight: 700;
-    //font-size: rem(72px);
+    font-size: rem(30px);
 
     @include desktop {
 
@@ -144,7 +144,7 @@ color: #e45028;
     color: white;
     font-family: Yanone Kaffeesatz;
     font-weight: 400;
-    //font-size: rem(25px);
+    font-size: rem(25px);
 
     @include desktop {
 

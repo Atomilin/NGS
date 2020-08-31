@@ -95,7 +95,8 @@ body {
 
 .style__text__title {
   font-family: Yanone Kaffeesatz;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 1.875rem; }
   @media screen and (max-width: 480px) {
     .style__text__title {
       margin-bottom: 0;
@@ -107,7 +108,8 @@ body {
 .style__text__desc {
   color: white;
   font-family: Yanone Kaffeesatz;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 1.5625rem; }
   @media screen and (max-width: 480px) {
     .style__text__desc {
       font-size: 1.5625rem; } }
