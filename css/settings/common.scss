@@ -151,7 +151,7 @@ color: #e45028;
     }
 
     @include phones {
-    
+        font-size: rem(25px);
     }
 
     @include small {
@@ -160,5 +160,6 @@ color: #e45028;
 }
 
 .style__text__desc--black {
+    font-size: rem(25px);
     color: black;
 }

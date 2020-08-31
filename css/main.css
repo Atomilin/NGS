@@ -108,11 +108,15 @@ body {
   color: white;
   font-family: Yanone Kaffeesatz;
   font-weight: 400; }
+  @media screen and (max-width: 480px) {
+    .style__text__desc {
+      font-size: 1.5625rem; } }
   @media screen and (max-width: 375px) {
     .style__text__desc {
       font-size: 0.9375rem; } }
 
 .style__text__desc--black {
+  font-size: 1.5625rem;
   color: black; }
 
 h1,
@@ -650,6 +654,12 @@ a:hover {
 .about__description {
   color: #555;
   width: 80%; }
+
+.title__about {
+  font-size: 4.5rem; }
+  @media screen and (max-width: 480px) {
+    .title__about {
+      font-size: 2.8125rem; } }
 
 .services {
   background: url("./../img/bg.jpg") no-repeat center center fixed;
