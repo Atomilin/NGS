@@ -2,10 +2,9 @@
     margin: 0 auto;
     text-align: center;
     background-size: cover;
-    width: -webkit-fill-available;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    height: initial;
 }
 
 .site-main--marginleft {
@@ -13,24 +12,19 @@
 }
 .offer__list {
     display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
-    margin-top: 50px;
-    //margin-left: -50px;
+    flex-flow: row wrap;
+    align-content: space-between;
     justify-content: space-between;
+    margin-top: rem(30px);
 
     @include desktop {
         margin-top: 0;
     }
 
     @include phones {
+        align-content: center;
         flex-direction: column;
         margin-top: rem(25px);
-    }
-
-    @include small {
-
     }
 }
 .offer__item {
@@ -44,24 +38,15 @@
     @include phones {
         width:70%;
     }
-
-    @include small {
-
-    }
 }
 .item {
     text-align: center;
 }
-/*
-.offer {
 
-}*/
 .offer__avatar {
     overflow: hidden;
     position: relative;
     flex-shrink: 0;
-
-    //
 }
 
 .offer__avatar--elem {
@@ -71,6 +56,7 @@
     height: 100%;
     object-fit: cover;
 }
+
 .offer__avatar--text {
     font-size: 24px;
     line-height: 0.88;
@@ -79,26 +65,21 @@
     text-align: center;
     color: white;
 }
+
 .overlay {
     visibility: hidden;
     position: absolute;
 }
+
 .overlay__text {
     color: white;
     font-family: Yanone Kaffeesatz;
     font-weight: 700;
 
-    @include desktop {
-
-    }
-
     @include phones {
         font-size: rem(15px);
     }
 
-    @include small {
-
-    }
 }
 
 
@@ -122,18 +103,10 @@
     display: flex;
     flex-direction: row;
 
-    
-    @include desktop {
-
-    }
-
     @include phones {
         padding: 10px;
     }
 
-    @include small {
-
-    }
 } 
 
 .offer__title {
@@ -152,27 +125,4 @@
 }
 .offer__picture {
     margin-bottom: 30px;
-}
-.overlay__vip {
-    color: #ec1e79;
-}
-
-.btn__portfolio {
-    padding: 10px 5px;
-    font-size: 10px;
-    line-height: 1.33;
-    border-radius: 6px;
-    text-decoration: none;
-
-    @include desktop {
-
-    }
-
-    @include phones {
-        font-size: rem(15px);
-    }
-
-    @include small {
-
-    }
 }

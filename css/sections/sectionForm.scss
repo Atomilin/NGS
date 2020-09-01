@@ -2,24 +2,16 @@
     background-image: url('./../images/order_bg.jpg');
     justify-content: center;
     align-items: center;
-    //display: none;
 }
 
 .form__wrapper {
     margin: 0 auto;
-
-    @include desktop {
-
-    }
 
     @include phones {
         margin: auto;
         width: 80%;
     }
 
-    @include small {
-
-    }
 }
 
 .form__content {
@@ -64,19 +56,11 @@
     margin-bottom: rem(20px);
     display: flex;
 
-    
-    @include desktop {
-
-    }
-
     @include phones {
         display: flex;
         flex-direction: column;
     }
 
-    @include small {
-
-    }
 }
 
 .form__raw:last-child {
@@ -95,17 +79,10 @@
     margin-right: rem(20px);
     flex: 1;
 
-    @include desktop {
-
-    }
-
     @include phones {
         margin-right: 0px;
     }
 
-    @include small {
-
-    }
 }
 
 .form__label--flor {
@@ -176,17 +153,9 @@
     text-align: right;
     margin-right: rem(20px);
 
-    @include desktop {
-
-    }
-
     @include phones {
         text-align: normal;
         margin-right: 0px;
-    }
-
-    @include small {
-
     }
 }
 
@@ -200,12 +169,6 @@
 
 .menu--other {
     margin-left: rem(-7px);
-}
-
-.button--delivery {
-    ///font-size: rem(13px);
-    //padding: rem(10px) rem(10px);
-    cursor: pointer;
 }
 
 .title--team {

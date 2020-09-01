@@ -20,44 +20,36 @@
                         <nav class="nav">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a class="nav__link style__text__desc" href="#1" alt="home" data-title="о нас">home</a>
+                                    <a class="nav__link navigation" href="#1" alt="home" data-title="о нас">home</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a class="nav__link style__text__desc" href="#2" alt="about" data-title="бургеры">about</a>
+                                    <a class="nav__link navigation" href="#2" alt="about" data-title="бургеры">about</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a class="nav__link style__text__desc" href="#3" alt="services" data-title="команда">services</a>
+                                    <a class="nav__link navigation" href="#3" alt="services" data-title="команда">services</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a class="nav__link style__text__desc" href="#4" alt="portfolio" data-title="меню">portfolio</a>
+                                    <a class="nav__link navigation" href="#4" alt="portfolio" data-title="меню">portfolio</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a class="nav__link style__text__desc" href="#5" alt="contact" data-title="контакты">contact</a>
+                                    <a class="nav__link navigation" href="#5" alt="contact" data-title="контакты">contact</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <!--Phone menu navigation-->
- 
             </header>
-
             <div class="header__btns">
                 <div class="header__links">
                     <a class="menu-link" onclick="openMenu()">
                         <div class="menu-link__bars"></div>
                     </a>
-                    <a class="button nav__link btn btn-lg btn-lg--mobile " href="#5" alt="Make order" data-title="Order">Order</a>
+                    <a class="button nav__link btn" href="#5" alt="Make order" data-title="Order">Order</a>
                 </div>
             </div>
             <!--Phone menu navigation-->
             <div class="menu-phone" id="menu-phone">
                 <div class="menu-phone__wrapper">
-                    <div class="menu-phone__logo">
-                        <a href="index.html">
-                            <img class="menu-phone__img" src="images/icons/logo.svg" alt="">
-                        </a>
-                    </div>
                     <a onclick="closeMenu()">
                         <div class="menu-phone__close"></div>
                     </a>
@@ -83,169 +75,163 @@
                 </div>
             </div>
             <!--Section One-->
-            <section class="section spisok--mobile" data-section="1">
-                <div class="main">
-                    <div class="content">
-                        <div class="title">
-                            Design. Development. Marketing.
-                        </div>
-                        <a href="#4" class="nav__link btn btn-lg style__text__desc">See My Works</a>
+            <section class="section spisok--mobile main" data-section="1">
+                <div class="content">
+                    <div class="title">
+                        Design. Development. Marketing.
                     </div>
+                    <a href="#4" class="nav__link btn description">See My Works</a>
                 </div>
             </section>
             <!--Section About-->
-            <section class="section spisok--mobile  spisok__mobile--about" data-section="2">
-                <div class="about">
-                    <div class="left">
-                        <img src="./img/about/about1.jpg" class="about__img">
+            <section class="section spisok--mobile  spisok__mobile--about about" data-section="2">
+                <div class="left">
+                    <img src="./img/about/about1.jpg" class="about__img">
+                </div>
+                <div class="right">
+                    <div class="about__description">
+                        <h2 class="title text--black">About me</h2>
+                        <p class="description text--black">My name is Arkady Tomilin, I am 30 years old. I sincerely love web development and internet marketing, I am actively exploring new standards, and in my free time I share my experience.</p>
                     </div>
-                    <div class="right">
-                        <div class="about__description">
-                            <h2 class="style__text__title title__about">About me</h2>
-                            <p class="style__text__desc style__text__desc--black">My name is Arkady Tomilin, I am 30 years old. I sincerely love web development and internet marketing, I am actively exploring new standards, and in my free time I share my experience.</p>
-                        </div>
-                        <div class="about__description">
-                            <h2 class="style__text__title title__about">Why choose me?</h2>
-                            <p class="style__text__desc style__text__desc--black">Professionalism.</p>
-                            <p class="style__text__desc style__text__desc--black">Creative non-standard approach.</p>
-                            <p class="style__text__desc style__text__desc--black">The ability to properly organize work.</p>
-                            <p class="style__text__desc style__text__desc--black">Detailed analysis of the market for goods and services.</p>
-                            <p class="style__text__desc style__text__desc--black">Studying the preferences of your target audience.</p>
-                        </div>
+                    <div class="about__description">
+                        <h2 class="title text--black">Why me?</h2>
+                        <p class="description text--black">Professionalism.</p>
+                        <p class="description text--black">Creative non-standard approach.</p>
+                        <p class="description text--black">The ability to properly organize work.</p>
+                        <p class="description text--black">Detailed analysis of the market for goods and services.</p>
+                        <p class="description text--black">Studying the preferences of your target audience.</p>
                     </div>
                 </div>
             </section>
             <!--Services-->
-            <section class="section" data-section="3">
-                <div class="services">
-                    <div class="services__text">
-                        <h2 class="services__title title">Services</h2>
-                        <hr>
-                    </div>
-                    <div class="services__desription">
-                        <ul class="spisok">
-                            <li class="spisok__item">
-                                <div>
-                                    <img src="img/icon/monitor.png" class="item__img">
-                                </div>
-                                <div>
-                                    <h3 class="style__text__title">Responsive Design</h3>
-                                    <p class="spisok__txt style__text__desc">A new format for landing pages that sell: your product or service and your brand.</p>
-                                </div>
-                            </li>
-                            <li class="spisok__item">
-                                <div>
-                                    <img src="img/icon/gears.png" class="item__img">
-                                </div>
-                                <div>
-                                    <h3 class="style__text__title">Web Development</h3>
-                                    <p class="spisok__txt style__text__desc">Design and development of sites, landing pages from concept to launch, flexible Agile methodology.</p>
-                                </div>
-                            </li>
-                            <li class="spisok__item">
-                                <div>
-                                    <img src="img/icon/target.png" class="item__img">
-                                </div>
-                                <div>
-                                    <h3 class="style__text__title">SEO-optimization</h3>
-                                    <p class="spisok__txt style__text__desc">Understanding and principles of search engine algorithms is at the core of successful SEO optimization.</p>
-                                </div>
-                            </li>
-                            <li class="spisok__item">
-                                <div>
-                                    <img src="img/icon/rocket.png" class="item__img">
-                                </div>
-                                <div>
-                                    <h3 class="style__text__title">Website promotion</h3>
-                                    <p class="spisok__txt style__text__desc">Website promotion, contextual advertising and optimization according to the transparent process strategy.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            <section class="section services" data-section="3">
+                <div class="services__text">
+                    <h2 class="title">Services</h2>
+                    <hr>
                 </div>
-            </section>
-            <!--Portfolio-->
-            <section class="section" data-section="4">
-                <div class="portfolio">
-                    <div class="services__text services__text--portfolio">
-                        <h2 class="services__title style__text__title">Portfolio</h2>
-                        <hr>
-                    </div>
-                    <ul class="offer__list">
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio1.png" alt="Mir-cvetovbratsk">
-                                    <div class="overlay">
-                                        <span class="overlay__text">Flowers world</span>
-                                        <a href="https://mir-cvetovbratsk.ru/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
+                <div class="services__desription">
+                    <ul class="spisok">
+                        <li class="spisok__item">
+                            <div>
+                                <img src="img/icon/monitor.png" class="item__img">
+                            </div>
+                            <div>
+                                <h3 class="subtitle">Responsive Design</h3>
+                                <p class="description">A new format for landing pages that sell: your product or service and your brand.</p>
                             </div>
                         </li>
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio2.png" alt="Mr.Burger">
-                                    <div class="overlay">
-                                        <span class="overlay__text">Mr.Burger</span>
-                                        <a href="https://atomilin.github.io/mr.burger/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
+                        <li class="spisok__item">
+                            <div>
+                                <img src="img/icon/gears.png" class="item__img">
+                            </div>
+                            <div>
+                                <h3 class="subtitle">Web Development</h3>
+                                <p class="description">Design and development of sites, landing pages from concept to launch, flexible Agile methodology.</p>
                             </div>
                         </li>
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio3.png" alt="ventclen">
-                                    <div class="overlay">
-                                        <span class="overlay__text">Ventclean</span>
-                                        <a href="https://ventclean.ru/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
+                        <li class="spisok__item">
+                            <div>
+                                <img src="img/icon/target.png" class="item__img">
+                            </div>
+                            <div>
+                                <h3 class="subtitle">SEO-optimization</h3>
+                                <p class="description">Understanding and principles of search engine algorithms is at the core of successful SEO optimization.</p>
                             </div>
                         </li>
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio4.jpg" alt="ventclen">
-                                    <div class="overlay">
-                                        <span class="overlay__text">Atlant-rf</span>
-                                        <a href="https://atlant-rf.su/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
+                        <li class="spisok__item">
+                            <div>
+                                <img src="img/icon/rocket.png" class="item__img">
                             </div>
-                        </li>
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio5.png" alt="remontano">
-                                    <div class="overlay">
-                                        <span class="overlay__text">Remontano</span>
-                                        <a href="https://remontano.ru/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="offer__item item">
-                            <div class="offer__picture">
-                                <div class="offer__avatar">
-                                    <img class="offer__avatar--elem" src="./img/portfolio/portfolio6.jpg" alt="eb_5">
-                                    <div class="overlay">
-                                        <span class="overlay__text">EB-5 Expert</span>
-                                        <a href="http://portfolio.demo-wsp.ru/eb_5/" class="btn btn-lg btn__portfolio">More details</a>
-                                    </div>
-                                </div>
+                            <div>
+                                <h3 class="subtitle">Website promotion</h3>
+                                <p class="description">Website promotion, contextual advertising and optimization according to the transparent process strategy.</p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
+            <!--Portfolio-->
+            <section class="section portfolio" data-section="4">
+                <div class="services__text services__text--portfolio">
+                    <h2 class="title text--black">Portfolio</h2>
+                    <hr>
+                </div>
+
+                <ul class="offer__list">
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio1.png" alt="Mir-cvetovbratsk">
+                                <div class="overlay">
+                                    <span class="overlay__text">Flowers world</span>
+                                    <a href="https://mir-cvetovbratsk.ru/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio2.png" alt="Mr.Burger">
+                                <div class="overlay">
+                                    <span class="overlay__text">Mr.Burger</span>
+                                    <a href="https://atomilin.github.io/mr.burger/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio3.png" alt="ventclen">
+                                <div class="overlay">
+                                    <span class="overlay__text">Ventclean</span>
+                                    <a href="https://ventclean.ru/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio4.jpg" alt="ventclen">
+                                <div class="overlay">
+                                    <span class="overlay__text">Atlant-rf</span>
+                                    <a href="https://atlant-rf.su/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio5.png" alt="remontano">
+                                <div class="overlay">
+                                    <span class="overlay__text">Remontano</span>
+                                    <a href="https://remontano.ru/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="offer__item item">
+                        <div class="offer__picture">
+                            <div class="offer__avatar">
+                                <img class="offer__avatar--elem" src="./img/portfolio/portfolio6.jpg" alt="eb_5">
+                                <div class="overlay">
+                                    <span class="overlay__text">EB-5 Expert</span>
+                                    <a href="http://portfolio.demo-wsp.ru/eb_5/" class="btn btn__portfolio">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </section>
             <!--Contact Us-->
             <section class="section services spisok--mobile" data-section="5">
                 <div class="form__wrapper">
-                    <div class="title title--team">You can order a site</div>
-                    <p class="style__text__desc">Solve all your problems with the site: fill out this form or email me tomilinbrand@gmail.com</p>
+                    <div class="title">You can order a site</div>
+                    <p class="description">Solve all your problems with the site: fill out this form or email me tomilinbrand@gmail.com</p>
                     <form class="form__content" id="form-delivery" name="fileinfo" action="https://getform.io/f/68350a86-7676-4a1d-a8c9-bf04b3bac9ef"  method="POST">
                         <div class="form__content--left">
                             <div class="form__raw">
@@ -266,10 +252,10 @@
                             </div>
                             <div class="form__raw form__raw--adaptive">
                                 <div class="form__button">
-                                    <button class="btn btn-lg button--delivery" type="submit" id="sendButton">Order</button>
+                                    <button class="btn button--delivery" type="submit" id="sendButton">Order</button>
                                 </div>
                                 <div class="form__button">
-                                    <button class="dismiss btn btn-lg button--delivery" type="reset">Clean</button>
+                                    <button class="dismiss btn button--delivery" type="reset">Clean</button>
                                 </div>
                             </div>
                         </div>

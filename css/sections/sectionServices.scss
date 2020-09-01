@@ -1,6 +1,5 @@
 .services {
     background: url('./../img/bg.jpg') no-repeat center center fixed;
-    //padding: 60px 0;
     text-align: center;
     background-size: cover;
     width: -webkit-fill-available;
@@ -8,18 +7,11 @@
     flex-direction: column;
     justify-content: center;
 
-    @include desktop {
-
-    }
-
     @include phones {
         
         justify-content: normal;
     }
 
-    @include small {
-
-    }
 }
 
 .services__text {
@@ -34,12 +26,7 @@
     }
 
     @include phones {
-        
         margin-top: 20px;
-    }
-
-    @include small {
-
     }
 }
 
@@ -88,25 +75,11 @@ hr {
         margin: 0 auto;
         width: 80%;
     }
-
-    @include small {
-
-    }
 }
 
 .spisok--mobile {
-
-
-    @include desktop {
-
-    }
-
     @include phones {
         height: inherit;
-    }
-
-    @include small {
-
     }
 }
 
@@ -116,18 +89,9 @@ hr {
     margin-right: 50px;
     color: white;
 
-    @include desktop {
-
-    }
-
     @include phones {
-        //width: 100%;
         margin-right: 0;
         margin-top: rem(25px);
-    }
-
-    @include small {
-
     }
 }
 
@@ -148,34 +112,16 @@ hr {
 
 .services__desription {
 
-    @include desktop {
-
-    }
-
     @include phones {
         display: flex;
         flex-direction: column;
         margin-bottom: rem(30px);
     }
-
-    @include small {
-
-    }
-
 }
 
 .spisok__mobile--about {
 
-
-    @include desktop {
-
-    }
-
     @include phones {
         height: fit-content;
-    }
-
-    @include small {
-
     }
 }

@@ -71,50 +71,23 @@
     justify-content: center;
     height: 100%;
 
-        
-    @include desktop {
-
-    }
-
     @include phones {
         
         width: 80%;
     }
 
-    @include small {
-
-    }
 }
 
 .about__description {
     color: #555;
     width: 80%;
-
-    @include desktop {
-
-    }
-
-    @include phones {
-
-    }
-
-    @include small {
-
-    }
 }
 
 .title__about {
     font-size: rem(72px);
 
-    @include desktop {
-
-    }
-
     @include phones {
         font-size: rem(45px);
     }
 
-    @include small {
-
-    }
 }

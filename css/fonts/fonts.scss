@@ -1,0 +1,58 @@
+.title {
+    color: #ffffff;
+    font-size: rem(72px);
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
+    margin: 0;
+
+    @include tablets {
+        white-space: inherit;
+    }
+}
+
+.subtitle {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
+    font-size: rem(35px);
+
+    @include phones {
+        
+        margin-bottom: 0;
+        margin-top: rem(10px);
+    }
+
+    @include small {
+        font-size: rem(25px);
+    }
+}
+
+.description {
+    font-family: Yanone Kaffeesatz;
+    color: white;
+    font-weight: 300;
+    font-size: rem(30px);
+}
+
+.navigation {
+	color: #555;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: rem(25px);
+
+	@include desktop {
+		font-size: rem(30px);
+	}
+    @include small {
+        font-size: rem(15px);
+    }
+}
+
+.footer__description {
+    color: #555;
+    font-size: 1rem;
+    line-height: 0.9;
+}
+
+.text--black {
+    color: #555;
+}

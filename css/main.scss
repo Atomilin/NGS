@@ -14,6 +14,8 @@ $small: 375px;
 
 // Settings
 @import "./settings/mixins.scss"; //миксины
+@import "./fonts/fonts.scss";// стили шрифтов
+@import "./sections/button.scss";// стили кнопки
 @import "./settings/common.scss"; //общие стили
 @import "./settings/zeroing.scss"; //сброс стандартных значений
 @import "./dynamicelement/menuPhone.scss"; //стили для меню на телефоне

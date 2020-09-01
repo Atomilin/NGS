@@ -19,9 +19,6 @@
 }
   
 .footer__col {
-    //margin-left: rem(80px);
-    //width: 100%;
-    //align-items: center;
 
     @include phones {
         width: 100%;
@@ -38,12 +35,8 @@
 }
   
 .footer__address {
-    color: #555;
-    font-size: 1rem;
-    line-height: 0.9;
     margin-top: rem(8px);
 
-    
     @include phones {
         margin-top: rem(0px);
     }
@@ -59,9 +52,9 @@
 }
   
 .footer__phone-icon{
-    margin-right:rem(8px);
+    margin-right: rem(8px);
     margin-left: 0.1rem;
-    width:rem(12px);
+    width: rem(12px);
     height: rem(12px);
 }
   
