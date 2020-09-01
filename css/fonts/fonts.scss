@@ -8,6 +8,10 @@
     @include tablets {
         white-space: inherit;
     }
+
+    @include small {
+        font-size: rem(60px);
+    }
 }
 
 .subtitle {
@@ -31,6 +35,7 @@
     color: white;
     font-weight: 300;
     font-size: rem(30px);
+    text-align: justify;
 }
 
 .navigation {

@@ -8,6 +8,9 @@
   @media screen and (max-width: 768px) {
     .title {
       white-space: inherit; } }
+  @media screen and (max-width: 375px) {
+    .title {
+      font-size: 3.75rem; } }
 
 .subtitle {
   font-family: Yanone Kaffeesatz;
@@ -25,7 +28,8 @@
   font-family: Yanone Kaffeesatz;
   color: white;
   font-weight: 300;
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+  text-align: justify; }
 
 .navigation {
   color: #555;
