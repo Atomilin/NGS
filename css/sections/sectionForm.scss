@@ -7,6 +7,10 @@
 .form__wrapper {
     margin: 0 auto;
 
+    @include desktop {
+        width: 90%;
+    }
+
     @include phones {
         margin: auto;
         width: 80%;
@@ -102,16 +106,6 @@
     margin-right: 0;
 }
 
-.form__subtitle {
-    font-family: 'Ubuntu';
-    display: block;
-    font-weight: normal;
-    font-size: rem(14px);
-    text-align: left;
-    color: #fff;
-    margin-bottom: rem(7px);
-}
-
 .form__input {
     outline: none;
     box-sizing: border-box;
@@ -132,7 +126,7 @@
 }
 
 .form__input:focus {
-    border-color: #f9b43b;
+    border-color: #71c9d6;
 }
 
 .form__textarea {

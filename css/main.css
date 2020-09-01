@@ -105,12 +105,12 @@ html, body {
   height: 100%; }
 
 body {
-  font-size: 1rem;
-  font-family: 'Ubuntu', Helvetica, sans-serif;
-  font-weight: 300;
-  line-height: 1.42;
-  position: relative;
-  color: #2f3234;
+  /*font-size: rem(16px);
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.42;
+    position: relative;
+    color: #2f3234;*/
   padding: 0;
   margin: 0; }
 
@@ -148,9 +148,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1200px) {
     .section {
-      height: auto; } }
+      height: initial; } }
 
 .content {
   margin: 0 auto;
@@ -404,21 +404,6 @@ a:hover {
       display: -ms-flexbox;
       display: flex; } }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.logo__pic {
-  width: 3%; }
-
 .nav__list {
   width: 100%;
   display: -webkit-box;
@@ -537,7 +522,7 @@ a:hover {
   justify-content: center;
   background-size: cover;
   width: 100%; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1200px) {
     .main {
       height: inherit; } }
 
@@ -637,7 +622,6 @@ a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 50%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -694,7 +678,7 @@ a:hover {
       margin-top: 0; } }
   @media screen and (max-width: 480px) {
     .services__text {
-      margin-top: 20px; } }
+      margin-top: 1.25rem; } }
 
 .services__text--portfolio {
   color: #555; }
@@ -724,7 +708,7 @@ hr {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-top: 100px; }
+  margin-top: 6.25rem; }
   @media screen and (max-width: 1200px) {
     .spisok {
       width: 95%; } }
@@ -740,12 +724,12 @@ hr {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       margin: 0 auto; } }
 
 .spisok__item {
-  width: 240px;
-  margin-right: 50px;
+  width: 15rem;
+  margin-right: 3.125rem;
   color: white; }
   @media screen and (max-width: 480px) {
     .spisok__item {
@@ -785,10 +769,13 @@ hr {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: initial; }
+  height: inherit; }
+  @media screen and (max-width: 1200px) {
+    .portfolio {
+      height: initial; } }
 
 .site-main--marginleft {
-  margin-left: 20px; }
+  margin-left: 1.25rem; }
 
 .offer__list {
   display: -webkit-box;
@@ -845,7 +832,7 @@ hr {
   object-fit: cover; }
 
 .offer__avatar--text {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 0.88;
   max-width: 100%;
   letter-spacing: normal;
@@ -870,7 +857,7 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   background-color: #71c9d6;
   display: -webkit-box;
@@ -897,21 +884,7 @@ hr {
   flex-direction: row; }
   @media screen and (max-width: 480px) {
     .offer__avatar:hover .overlay {
-      padding: 10px; } }
-
-.offer__title {
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 15px; }
-
-.offer__text {
-  font-family: Gotha;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #221f1f; }
+      padding: 0.625rem; } }
 
 .offer__picture {
   margin-bottom: 30px; }
@@ -927,6 +900,9 @@ hr {
 
 .form__wrapper {
   margin: 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .form__wrapper {
+      width: 90%; } }
   @media screen and (max-width: 480px) {
     .form__wrapper {
       margin: auto;
@@ -1033,15 +1009,6 @@ hr {
 .form__label:last-child {
   margin-right: 0; }
 
-.form__subtitle {
-  font-family: 'Ubuntu';
-  display: block;
-  font-weight: normal;
-  font-size: 0.875rem;
-  text-align: left;
-  color: #fff;
-  margin-bottom: 0.4375rem; }
-
 .form__input {
   outline: none;
   -webkit-box-sizing: border-box;
@@ -1061,7 +1028,7 @@ hr {
       height: 1.875rem; } }
 
 .form__input:focus {
-  border-color: #f9b43b; }
+  border-color: #71c9d6; }
 
 .form__textarea {
   resize: none;

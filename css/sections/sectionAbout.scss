@@ -50,6 +50,7 @@
 }
 
 .about__img {
+
     @include desktop {
         width: 85%;
     }
@@ -64,7 +65,6 @@
 .left {
     display: flex;
     align-items: center;
-    width: 50%;
     justify-content: center;
     height: 100%;
 

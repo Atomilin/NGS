@@ -61,17 +61,6 @@
 
 }
 
-// logo
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.logo__pic {
-    width: 3%;
-}
-
 .nav__list {
 	width: 100%;
 	display: flex;
@@ -87,7 +76,6 @@
 		width: rem(4px);
 		height: rem(4px);
 		border-radius: 50%;
-		//background: #71c9d6;
 		margin: 0 1.5rem;
 	}
 	&:last-child {

@@ -4,7 +4,6 @@
 }
   
 .menu-phone__wrapper {
-    //background: rgba(47, 50, 52, .99);
     background-color: #71c9d6;
     position: absolute;
     height: 100%;
@@ -17,19 +16,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    //opacity: 0.5; 
-
-    @include desktop {
-
-    }
 
     @include phones {
         z-index: 99;
     }
 
-    @include small {
-
-    }
 }
 
 .menu-phone__logo {

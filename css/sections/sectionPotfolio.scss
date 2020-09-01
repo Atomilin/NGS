@@ -4,11 +4,15 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: initial;
+    height: inherit;
+
+    @include desktop {
+        height: initial;
+    }
 }
 
 .site-main--marginleft {
-    margin-left: 20px;
+    margin-left: rem(20px);
 }
 .offer__list {
     display: flex;
@@ -58,7 +62,7 @@
 }
 
 .offer__avatar--text {
-    font-size: 24px;
+    font-size: rem(24px);
     line-height: 0.88;
     max-width: 100%;
     letter-spacing: normal;
@@ -89,7 +93,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    font-size: 24px;
+    font-size: rem(24px);
     text-transform: uppercase;
     background-color: #71c9d6;
     display: flex;
@@ -104,25 +108,11 @@
     flex-direction: row;
 
     @include phones {
-        padding: 10px;
+        padding: rem(10px);
     }
 
 } 
 
-.offer__title {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-.offer__text {
-    font-family: Gotha;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #221f1f;
-}
 .offer__picture {
     margin-bottom: 30px;
 }
