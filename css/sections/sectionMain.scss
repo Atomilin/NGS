@@ -7,6 +7,9 @@
     justify-content: center;
     background-size: cover;
     width: 100%;
+    @include phones {
+        height: inherit;
+    }
 }
 
 .content {

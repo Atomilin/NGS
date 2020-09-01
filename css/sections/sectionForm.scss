@@ -78,6 +78,7 @@
 .form__label {
     margin-right: rem(20px);
     flex: 1;
+    text-align: left;
 
     @include phones {
         margin-right: 0px;

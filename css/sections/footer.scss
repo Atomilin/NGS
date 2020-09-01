@@ -4,12 +4,12 @@
     margin: 0 auto;
     height: rem(60px);  
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-family: Yanone Kaffeesatz;
     font-weight: 400;
 
     @include phones {
-        height: rem(116px);
+        height: auto;
         width: 100%;
         text-align: center;
         flex-direction: column;
@@ -38,6 +38,7 @@
     margin-top: rem(8px);
 
     @include phones {
+        text-align: center;
         margin-top: rem(0px);
     }
 }

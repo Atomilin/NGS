@@ -64,7 +64,7 @@ hr {
     margin-top: 100px;
 
     @include desktop {
-        width: 80%;
+        width: 95%;
     }
 
     @include phones {
@@ -73,16 +73,8 @@ hr {
         align-items: center;
         margin-top: 20px;
         margin: 0 auto;
-        width: 80%;
     }
 }
-
-.spisok--mobile {
-    @include phones {
-        height: inherit;
-    }
-}
-
 
 .spisok__item {
     width: 240px;
@@ -92,6 +84,7 @@ hr {
     @include phones {
         margin-right: 0;
         margin-top: rem(25px);
+        width: 80%;
     }
 }
 
@@ -107,21 +100,11 @@ hr {
     text-align: justify;
 }
 
-
-//
-
 .services__desription {
 
     @include phones {
         display: flex;
         flex-direction: column;
         margin-bottom: rem(30px);
-    }
-}
-
-.spisok__mobile--about {
-
-    @include phones {
-        height: fit-content;
     }
 }

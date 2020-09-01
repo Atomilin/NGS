@@ -537,6 +537,9 @@ a:hover {
   justify-content: center;
   background-size: cover;
   width: 100%; }
+  @media screen and (max-width: 480px) {
+    .main {
+      height: inherit; } }
 
 .content {
   -webkit-box-align: center;
@@ -554,7 +557,8 @@ a:hover {
     .about {
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center; } }
+      align-items: center;
+      width: 90%; } }
   @media screen and (max-width: 480px) {
     .about {
       margin-top: 3.125rem;
@@ -643,8 +647,7 @@ a:hover {
       width: 80%; } }
 
 .about__description {
-  color: #555;
-  width: 80%; }
+  color: #555; }
 
 .title__about {
   font-size: 4.5rem; }
@@ -724,7 +727,7 @@ hr {
   margin-top: 100px; }
   @media screen and (max-width: 1200px) {
     .spisok {
-      width: 80%; } }
+      width: 95%; } }
   @media screen and (max-width: 480px) {
     .spisok {
       display: -webkit-box;
@@ -738,12 +741,7 @@ hr {
       -ms-flex-align: center;
       align-items: center;
       margin-top: 20px;
-      margin: 0 auto;
-      width: 80%; } }
-
-@media screen and (max-width: 480px) {
-  .spisok--mobile {
-    height: inherit; } }
+      margin: 0 auto; } }
 
 .spisok__item {
   width: 240px;
@@ -752,7 +750,8 @@ hr {
   @media screen and (max-width: 480px) {
     .spisok__item {
       margin-right: 0;
-      margin-top: 1.5625rem; } }
+      margin-top: 1.5625rem;
+      width: 80%; } }
 
 .spisok__item:last-child {
   margin-right: 0px; }
@@ -774,12 +773,6 @@ hr {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 1.875rem; } }
-
-@media screen and (max-width: 480px) {
-  .spisok__mobile--about {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content; } }
 
 .portfolio {
   margin: 0 auto;
@@ -832,7 +825,7 @@ hr {
       width: 35%; } }
   @media screen and (max-width: 480px) {
     .offer__item {
-      width: 70%; } }
+      width: 80%; } }
 
 .item {
   text-align: center; }
@@ -1023,7 +1016,8 @@ hr {
   margin-right: 1.25rem;
   -webkit-box-flex: 1;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1;
+  text-align: left; }
   @media screen and (max-width: 480px) {
     .form__label {
       margin-right: 0px; } }
@@ -1116,14 +1110,13 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   font-family: Yanone Kaffeesatz;
   font-weight: 400; }
   @media screen and (max-width: 480px) {
     .footer {
-      height: 7.25rem;
+      height: auto;
       width: 100%;
       text-align: center;
       -webkit-box-orient: vertical;
@@ -1155,6 +1148,7 @@ hr {
   margin-top: 0.5rem; }
   @media screen and (max-width: 480px) {
     .footer__address {
+      text-align: center;
       margin-top: 0rem; } }
 
 .footer__phone {
